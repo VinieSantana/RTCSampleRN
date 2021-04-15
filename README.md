@@ -47,5 +47,5 @@
   * No Android, o contexto da aplicação é atualizado automaticamente quando o contexto do sistema operacional é alterado. 
   Com excessão do componente *Text*, que funciona de acordo com o idioma do texto, e do componente *Image*, que precisa que a aplicação seja reiniciada para aplicar a transformação.
   
-  *No iOS foi necessário utilizar o método *forceRTL* da classe *I18nManager* passando o valor *true* como argumento, para que a aplicação mude o contexto para RTL,
+  * No iOS foi necessário utilizar o método *forceRTL* da classe *I18nManager* passando o valor *true* como argumento, para que a aplicação mude o contexto para RTL,
   Logo devem ser utilizadas bibliotecas para identificar o contexto do idioma do sistema operacional, aplicar o RTL ao contexto da aplicação e forçar um reboot.
